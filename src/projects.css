@@ -1,0 +1,492 @@
+
+.Projects {
+    font-family: 'Helvetica';
+    margin-left: 1%;
+    color:#919191;
+    font-weight: 1100;
+    background-color: white;
+}
+
+.sub-title {
+  font-size: 1.5em;
+  color: black;
+  padding-top: .8em;
+}
+
+
+.projects-main {
+  position: absolute;
+  /*width: 100%;*/
+  font-size: 1.2em;
+  margin-left: 13.5%;
+  top: 19%;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+
+.black-line {
+  width: 100%;
+  height: .7em;
+  padding-top: 5%;
+  background-color: black;
+  background-clip: content-box;
+  color: black;
+}
+
+
+.item {
+  min-width: 5em;
+  max-width: 15em;
+  padding: 1.2em;
+  border-radius: .15em;
+  transition-duration: 750ms;
+  font-size: 1.0em;
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(10%, 1fr));
+  grid-gap: 1.2em;
+  padding: 1em;
+  width: 80%;
+  left: 10%;
+}
+
+.yale {
+  grid-column: 1 / 1;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; 
+  -webkit-animation: fadein 1s; 
+  -o-animation: fadein 1s;
+  
+}
+
+.current {
+  background-color: #424242;
+  color: #dbdbdb;
+  animation: fadein .7s;
+  -moz-animation: fadein .7s; 
+  -webkit-animation: fadein .7s; 
+  -o-animation: fadein .7s;
+
+}
+
+.current:hover {
+  color: #424242;
+  background-color: #dbdbdb;
+}
+
+
+/* Awards at Yale */
+.grid-awards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(10%, 1fr));
+  grid-gap: .6em;
+  padding: 1em;
+  margin-right: 5%
+}
+
+hr {
+  margin-right: 80%;
+}
+
+.awards {
+  font-size: .8em;
+  background-color: #f5f5f5;
+  color: #3d3d3d;
+  min-width:em;
+}
+
+.awards:hover {
+  color: black;
+}
+
+.grid-skills {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(10%, 1fr));
+  grid-gap: .6em;
+  padding: 1em;
+  width: 80%;
+}
+
+.skills {
+  min-width: 3em;
+  font-size: .8em;
+  background-color: rgba(209,187,198,0.7);
+  color: black;
+}
+
+/* tech stuff */
+.grid-tech {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(10%, 100%));
+  grid-gap: .6em;
+  padding: 1em;
+  width: 90%;
+}
+
+.tech {
+  color: #424242;
+  background-color: #f5f5f5;
+  height: 19em;
+}
+.description-text {
+  font-size: .85em;
+}
+
+.zoula-image {
+  margin-top:10%;
+}
+
+.image {
+  width: 100%;
+}
+.access-image {
+  margin-top: -170%;
+}
+
+.dates {
+  margin-top: 2%;
+  font-size: .8em;
+}
+
+/* teaching and education */
+.grid-education {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(10%, 1fr));
+  grid-gap: .6em;
+  padding: 1em;
+  width: 90%;
+}
+
+.light-grey-background {
+  color: #424242;
+  background-color: #f5f5f5;
+  background-color: rgba(209,187,198,0.7);
+}
+
+/* research stuff */
+.research:hover {
+  color: #919191;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .grid, .grid-awards, .grid-skills, .grid-tech, .grid-education{
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 5%;
+  }
+
+
+}
+
+@media only screen and (max-width: 700px) {
+  .grid, .grid-awards, .grid-skills, .grid-tech, .grid-education{
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 2%;
+    margin-top: 12%;
+  }
+
+  .item {
+    font-size: 1em;
+  }
+  
+}
+
+
+
+
+
+/*
+
+.image {
+  width: 100%;
+}
+
+h4 {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: .6em;
+  
+}
+h3 {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: .821em;
+}
+
+hr {
+  margin-right: 80%;
+}
+  
+
+.title {
+  font-family: 'Helvetica';
+  font-size: 2em;
+  font-weight: 300;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
+.project-main-description {
+  text-align: center;
+
+}
+
+a {
+  color: #5e86e6;
+  transition-duration: 750ms;
+}
+
+a:hover {
+  color: white;
+}
+
+.project-main-description-div {
+  position: relative;
+  font-size: 2em;
+  width: 22%;
+  padding: 2%;
+  border-radius: .5em;
+  
+}
+
+.project-main-description-sample {
+  font-size: 2em;
+  position: relative;
+  text-align: center;
+  width: 30%;
+  padding: 2%;
+  border-radius: .3em;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(10%, 1fr));
+  grid-gap: 1.2em;
+  margin-right: 1.2em;
+  margin-left: 12%;
+}
+
+.item {
+  max-height: 22em;
+  min-height: 8em;
+  background-color: #f7f7f7;
+  padding: 1.1em;
+  border-radius: .15em;
+  transition-duration: 750ms;
+  font-size: 1.8em;
+  overflow: hidden;
+}
+
+.zoula-item {
+  grid-row: 1 / 4;
+  grid-column: 1;
+  background:linear-gradient(rgba(209,187,198,0.7),transparent);
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; 
+  -webkit-animation: fadein 1s; 
+  -o-animation: fadein 1s; 
+  
+}
+
+.item:hover {
+  background-color: #eee;
+  background-color: rgba(209,187,198,0.7);
+  color: white;
+}
+
+.zoula-item:hover {
+  color: #424242;
+  background:linear-gradient(rgba(209,187,198,0.7),transparent);
+}
+
+
+.current-role {
+  grid-row: 1 / 3;
+  grid-column: 2 / span 2;
+  animation: fadein 1.5s;
+  -moz-animation: fadein 1.5s; 
+  -webkit-animation: fadein 1.5s; 
+  -o-animation: fadein 1.5s;
+}
+
+.columbia-item {
+  background-color: #424242;
+  grid-row: 3 / 4;
+  animation: fadein 3s;
+  -moz-animation: fadein 3s; 
+  -webkit-animation: fadein 3s; 
+  -o-animation: fadein 3s; 
+}
+
+.columbia-item:hover {
+  background-color: #424242;
+  background-color: white;
+  color: #424242;
+}
+
+.zoula-image {
+  margin-top:-9%;
+}
+
+.access-health-ct-item {
+  grid-row: 3 / 5;
+  grid-column: 3;
+  background:linear-gradient(to top, rgba(209,187,198,0.7),transparent);
+  text-align: right;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s; 
+  -webkit-animation: fadein 2s; 
+  -o-animation: fadein 2s; 
+}
+
+.access-image {
+  margin-top: -89%;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; 
+  -webkit-animation: fadein 1s; 
+  -o-animation: fadein 1s; 
+}
+
+.access-health-ct-item:hover {
+  color: #424242;
+  background:linear-gradient(to top, rgba(209,187,198,0.7),transparent);
+}
+
+.tobin-item {
+  
+}
+
+.tobin-item:hover {
+  background-image: url(images/tobin-center.png);
+  background-position: center;
+  background-size: cover;
+  color: rgba(209,187,198,0);
+}
+
+.townsend {
+  color: black;
+}
+
+.townsend-link {
+  color: #5e86e6;
+}
+
+
+.czi-item {
+
+  grid-column: 1 / span 2;
+  background-color: #424242;
+}
+
+.czi-item:hover {
+  color: #bababa;
+  background-color:  #424242;
+}
+
+.yio-item {
+
+  color: #424242;
+  background-color: white;
+  transition-duration: 750ms;
+  grid-row: 5 / span 6;
+  grid-column: 3;
+}
+
+.yio-item:hover {
+  color:#424242;
+  background-color: #eee;
+  
+}
+
+.yio-image {
+  box-shadow: -0em .15em .1em #919191;
+  margin-top: 18%;
+}
+
+
+.extra-info {
+  grid-column: 1 / span 2;
+}
+.access-health-text {
+  margin-top: 0%;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 15%;
+
+  }
+  .current-role {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .zoula-item {
+    grid-column: 1;
+    grid-row: 2 / span 3;
+  }
+  .columbia-item {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .access-health-ct-item {
+    grid-column: 1;
+    grid-row: 7 / span 8;
+  }
+  .czi-item { 
+    grid-column: 1;
+  }
+  .tobin-item {
+    grid-column: 1;
+    grid-row: 15;
+  }
+
+  .yio-item {
+    grid-column: 1;
+    grid-row: 16 / span 17;
+  }
+
+  .extra-info {
+    grid-column: 1;
+  }
+  .access-health-text {
+    font-size: .55em;
+    margin-top: -10%;
+    
+  }
+
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 2%;
+    margin-top: 12%;
+  }
+
+  .current-role {
+    font-size: 1em;
+  }
+  .zoula-item {
+    font-size: 1em;
+  }
+  .columbia-item {
+    font-size: 1.3em;
+  }
+  .czi-item {
+    font-size: 1.3em;
+  }
+  .extra-info {
+    font-size: 1.3em;
+  }
+}
+
+*/

@@ -1,0 +1,120 @@
+
+.Art {
+    background-color: white;
+    font-family: 'Helvetica';
+    margin-left: 1%;
+    color:#919191;
+    font-weight: 100;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+#art-description {
+    /*margin-left: 40%;*/
+    margin-right: 2%;
+    margin-top: 5%;
+    text-align: right;
+    font-size: 1.4em;
+    font-weight: 100;
+  }
+
+#art-grid {
+    grid-gap: 1.3em;
+    display: grid;
+    margin-left: 10em;
+    margin-right: 1.5em;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, );
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+  }
+
+
+.artwork {
+    width: 100%;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.artwork2 {
+    grid-column: 3;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.tyler {
+  grid-column: 2;
+  width: 80%;
+  height: auto;
+}
+
+.artwork3 {
+  grid-column: 2/4;
+  height: 95%;
+  width:auto;
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
+}
+.abstract{
+  grid-column: 5;
+}
+
+@media only screen and (max-width: 900px) {
+  #art-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .artwork2 {
+    grid-column: 2;
+  }
+  .artwork3 {
+    grid-column: 1;
+  }
+  .abstract {
+    grid-column: 2;
+  }
+}
+
+.gallery {
+  width: 80%;
+  margin-left: 17%;
+}
+
+
+@media only screen and (max-width: 700px) {
+  #art-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .artwork2 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .artwork3 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .abstract {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .faces-art {
+    grid-column: 1;
+   }
+
+}

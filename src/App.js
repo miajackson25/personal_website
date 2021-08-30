@@ -1,6 +1,7 @@
 /* To Updated the App Online:
+Deploy using Vercel: https://blog.logrocket.com/8-ways-to-deploy-a-react-app-for-free/
 
-- deploy using Vercel
+- !!!make sure git repo has been updated with most recent version!!!
 - run "vercel --prod"
 
 
@@ -29,7 +30,6 @@ import {
 
 
 export default function App() {
-
 
   return (
   

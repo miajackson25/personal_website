@@ -17,7 +17,7 @@
 
 .name {
   font-family: inherit;
-  font-weight: 150;
+  font-weight: inherit;
   color: black;
   font-size: 2em;
   left: 5%;
@@ -33,7 +33,7 @@
 .contact-div {
   right: 0%;
   margin-left: 50%;
-  font-weight: 200;
+  font-weight: inherit;
 }
 
 .name-div {
@@ -65,11 +65,7 @@
   top: 66%
 }
 
-.art {
-  top: 66%
-}
-
-.contact {
+.contact-link {
   top: 70%
 }
 
@@ -78,35 +74,27 @@
 }
 
 .search-list {
-  margin-top: 28%;
   margin-left: .5%;
   display: inline-block;
   position: absolute;
-  /*flex-flow: column;*/
 }
 
 .photo {
   position: absolute;
-  width: 40%;
+  width: 35%;
+  top: 20%;
   right: 7%;
   margin-top: 0%;
   animation: fadein 1s;
-  -moz-animation: fadein 1s; /* Firefox */
-  -webkit-animation: fadein 1s; /* Safari and Chrome */
-  -o-animation: fadein 1s; /* Opera */
 }
 
 .description {
-  background: #d1bbc6;
   position: absolute;
-  /*border-color: #d1bbc6;*/
   color:black;
   font-family: inherit;
-  font-weight: 150;
   font-size: 1.1em;
-  width: 42%;
+  width: 40%;
   right: 43%;
-  top: 34%;
   padding: 2%;
   animation: fadein 1s;
   -moz-animation: fadein 1s; /* Firefox */
@@ -122,12 +110,6 @@
   z-index: '-100';
 }
 
-.lines {
-  width:37%;
-  position: absolute;
-  resizeMode:'contain';
-  /*position: absolute;*/
-}
 
 .sidebar {
   position: absolute;
@@ -153,26 +135,176 @@ a {
   color: #5e86e6
 }
 
-.arrow-to-email {
-  width: 15%;
-  margin-left: 53%;
-  top: 11%;
+
+.name-contact {
+  color: inherit;
+}
+
+
+.intro-page-together {
+
   position: absolute;
+  left: 50%;
+  top: 22%;
+  width: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.mia-intro {
+  font-size: 1.4em;
+  font-weight: inherit;
+}
+
+.back {
+  position: absolute;
+  top: 0;
+  -o-animation: fadein 1s; /* Opera */
+}
+
+.writing-main-text {
+  position: absolute;
+  width: 63%;
+  font-size: 1.2em;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, 0);
   animation: fadein 1s;
   -moz-animation: fadein 1s; /* Firefox */
   -webkit-animation: fadein 1s; /* Safari and Chrome */
   -o-animation: fadein 1s; /* Opera */
 }
 
-
-.name-contact {
-  color: inherit;
+.links-to-articles {
+  color: black;
+  text-decoration: underline;
 }
 
-.name-contact:hover {
-  color:#5e86e6
+.links-to-articles:hover {
+  color: black;
 }
 
+@media only screen and (max-width: 1050px) {
+
+  .contact-description {
+    font-size: 1.4em;
+    width: 100%;
+  }
+  .photo {
+    display: none;
+  }
+  .description {
+    width: 85%;
+    left: 10%;
+    top: 20%;
+  }
+
+  .name {
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .name-div {
+    display: absolute;
+    text-align: right;
+    margin-right: 1%;
+  }
+  .contact {
+    font-size: 1.2em;
+    display: absolute;
+    top: 30%;
+  }
+
+  .contact-div {
+    position: absolute;
+    width: 100%;
+    margin-left: 0%;
+    right: 1%;
+    font-weight: inherit;
+    top: 3.5%;
+  }
+
+  .topic {
+    font-size: 1.2em;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  .name {
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .name-div {
+    display: absolute;
+    text-align: right;
+    margin-right: 1%;
+  }
+  .contact {
+    font-size: 1.2em;
+    display: absolute;
+    top: 30%;
+  }
+
+  .contact-div {
+    position: absolute;
+    width: 100%;
+    margin-left: 0%;
+    right: 1%;
+    font-weight: inherit;
+    top: 3.5%;
+  }
+
+  .topic {
+    font-size: 1.2em;
+  }
+
+  .photo {
+    display: none;
+  }
+
+  .description {
+    width: 85%;
+    left: 5%;
+    top: 20%;
+    background-color: white;
+  }
+
+  .search-list {
+    margin-left: .5%;
+    display: inline-block;
+    position: absolute;
+  }
+  .home {
+    top: 3%;
+    z-index: 4;
+  }
+
+  .project {
+    top: 6%;
+    z-index: 4;
+  }
+
+  .writing {
+    top: 9%;
+    z-index: 4;
+  }
+  .contact-link {
+    top: 12%;
+    z-index: 4;
+  }
+
+  .contact-description {
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+}
+
+/*
 
 @media only screen and (max-width: 900px) {
   .description {
@@ -188,3 +320,5 @@ a {
     display:none
   }
 }
+
+*/

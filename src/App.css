@@ -193,8 +193,10 @@ a {
     display:grid;
     grid-template-columns: repeat(1, minmax(10%, 1fr));
     left: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
     top: 59%;
-    width: 90%;
+    width: 100%;
   }
 
   .photo {
@@ -210,10 +212,10 @@ a {
     display: block;
     position: relative;
     width: 85%;
-    left: 10%;
-    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 22%;
   }
-
 
   .name {
     font-size: 1.2em;
@@ -225,6 +227,7 @@ a {
     text-align: right;
     margin-right: 1%;
   }
+  
   .contact {
     font-size: 1.2em;
     display: absolute;
@@ -240,29 +243,55 @@ a {
     top: 3.5%;
   }
 
+  .search-list {
+    position: absolute;
+    height: 100%;
+  }
 
-  .writing-main-text {
-    width: 70%;
-    font-size: 1em;
+  .div-search-list {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+  }
+
+  .topic {
+    font-size: 1.3em;
+    font-weight: inherit;
   }
 
   .home {
-    top: 40%;
+    top: 3%;
+    position: absolute;
+    z-index: 4;
   }
+
   .project {
-    top: 44%
+    top: 7%;
+    position: absolute;
+    z-index: 4;
   }
-  
+
   .writing {
-    top: 48%
+    position: absolute;
+    top: 11%;
+    z-index: 4;
   }
-  
+
   .contact-link {
-    top: 52%
+    position: absolute;
+    top: 15%;
+    z-index: 4;
+  }
+
+  .writing-main-text {
+    width: 93%;
   }
 
 
 }
+
+
+
 
 @media only screen and (max-width: 700px) {
 
@@ -301,33 +330,8 @@ a {
   }
 
   .search-list {
-    margin-left: .5%;
-    display: inline-block;
+    display: absolute;
     position: absolute;
-  }
-  .home {
-    top: 3%;
-    z-index: 4;
-  }
-
-  .project {
-    top: 7%;
-    z-index: 4;
-  }
-
-  .writing {
-    top: 11%;
-    z-index: 4;
-  }
-
-  .writing-main-text {
-    width: 93%;
-    font-size: 1.0em;
-  }
-
-  .contact-link {
-    top: 15%;
-    z-index: 4;
   }
 
   .contact-description {
@@ -341,9 +345,13 @@ a {
     top: 59%;
     width: 100%;
   }
-  
-
+  .writing-main-text {
+    font-size: 1em;
+  }
 }
+
+
+
 
 /*
 

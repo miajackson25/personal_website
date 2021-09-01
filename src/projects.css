@@ -178,17 +178,11 @@ hr {
   .grid, .grid-awards, .grid-skills, .grid-tech, .grid-education{
     grid-template-columns: repeat(2, 1fr);
     margin-left: 5%;
-    width: 80%;
-    margin-right: 0%;
-    grid-gap: 1em;
-}
-  .current {
-    grid-column: 1/ span 2;
+    width: 94.5%;
+    grid-gap: .8em;
   }
-
   .projects-main {
-    margin-left: 12.5%;
-
+    margin-left: 5.5%;
   }
 }
 
@@ -216,15 +210,12 @@ hr {
   }
 
   .projects-main {
-    position: absolute;
     /*width: 100%;*/
     width: 1fr;
     margin-left: 0%;
     top: 15%;
 
   }
-
-
 
   .item {
     min-width: none;

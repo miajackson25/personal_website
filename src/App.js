@@ -36,17 +36,19 @@ export default function App() {
     <Router>
       <div>
         <nav className="search-list">
-        <div>
-          <Link className="topic home" to="/">home</Link>
-        </div>
-        <div>
-          <Link className="topic writing" to="/writing">writing</Link>
-        </div>
-        <div>
-          <Link className="topic project" to="/projects">projects</Link>
-        </div>
-        <div>
-          <Link  className="topic contact-link" to="/contact">contact</Link>
+        <div className="div-search-list">
+          <div className="home-div">
+            <Link className="topic home" to="/">home</Link>
+          </div>
+          <div>
+            <Link className="topic writing" to="/writing">writing</Link>
+          </div>
+          <div>
+            <Link className="topic project" to="/projects">projects</Link>
+          </div>
+          <div>
+            <Link  className="topic contact-link" to="/contact">contact</Link>
+          </div>
         </div>
         </nav>
         <Switch>
@@ -79,12 +81,12 @@ export default function App() {
 function Home() {
   return (
     <div className="App">
-    <div className="name-div">
-    <p className="name"><Link to="/" style={{"color": "black"}}>mia jackson</Link></p>
-      <div className="contact-div">
-        <p className="contact">mia.jackson@yale.edu</p>
+      <div className="name-div">
+        <p className="name"><Link to="/" style={{"color": "black"}}>mia jackson</Link></p>
+          <div className="contact-div">
+            <p className="contact">mia.jackson@yale.edu</p>
+          </div>
       </div>
-    </div>
 
     <div className="intro-page-together">
         <img className="photo" src={Me} alt="me"/>

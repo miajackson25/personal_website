@@ -294,57 +294,19 @@ a {
 
 
 @media only screen and (max-width: 700px) {
-
-  .name {
-    width: 100%;
-  }
-
-  .name-div {
-    display: absolute;
-    text-align: right;
-    margin-right: 1%;
-  }
-  .contact {
-    display: absolute;
-    top: 30%;
-  }
-
-  .contact-div {
-    position: absolute;
-    width: 100%;
-    margin-left: 0%;
-    right: 1%;
-    font-weight: inherit;
-    top: 3.5%;
-  }
-
-  .photo {
-    display: none;
-  }
-
-  .description {
-    width: 85%;
-    left: 5%;
-    top: 20%;
-    background-color: white;
-  }
-
-  .search-list {
-    display: absolute;
-    position: absolute;
-  }
-
-  .contact-description {
-    font-size: 1.2em;
-    width: 100%;
-  }
   .intro-page-together {
     display:grid;
     grid-template-columns: repeat(1, minmax(10%, 1fr));
     left: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
     top: 59%;
     width: 100%;
   }
+  .photo {
+    display: none;
+  }
+  
   .writing-main-text {
     font-size: 1em;
   }

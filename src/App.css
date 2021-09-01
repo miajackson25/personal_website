@@ -311,22 +311,22 @@ a {
   }
 
   .project {
-    top: 6%;
+    top: 7%;
     z-index: 4;
   }
 
   .writing {
-    top: 9%;
+    top: 11%;
     z-index: 4;
   }
 
   .writing-main-text {
     width: 93%;
-    font-size: .8em;
+    font-size: 1.0em;
   }
 
   .contact-link {
-    top: 12%;
+    top: 15%;
     z-index: 4;
   }
 

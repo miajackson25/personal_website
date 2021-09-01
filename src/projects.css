@@ -190,9 +190,9 @@ hr {
     margin-left: 12.5%;
 
   }
-
-
 }
+
+
 
 @media only screen and (max-width: 700px) {
 
@@ -203,7 +203,7 @@ hr {
     /*grid-template-columns: none;*/
     grid-gap: 1.1em;
     padding: 1%;
-    width: 95.5%;
+    width: 97%;
     left: 0%;
   }
   .grid-skills {
@@ -211,7 +211,7 @@ hr {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2em;
     padding: .4%;
-    width: 90%;
+    width: 97%;
     margin-left: 0%;
   }
 
@@ -224,17 +224,22 @@ hr {
 
   }
 
-  .access-image, .zoula-image {
-    display: none;
-  }
+
 
   .item {
-    min-width: 93%;
-    max-width: 100%;
+    min-width: none;
+    max-width: none;
     padding: 1em;
     overflow: hidden;    
   }
 
+  .tech {
+    height: auto;
+  }
+  .access-image, .zoula-image {
+    display: none;
+    margin-top: 0%;
+  }
   
 }
 

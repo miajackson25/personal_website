@@ -122,7 +122,7 @@ hr {
 /* tech stuff */
 .grid-tech {
   display: grid;
-  grid-template-columns: repeat(4, minmax(10%, 100%));
+  grid-template-columns: repeat(4, minmax(10%, 1fr));
   grid-gap: .6em;
   padding: 1em;
   width: 90%;
@@ -178,21 +178,63 @@ hr {
   .grid, .grid-awards, .grid-skills, .grid-tech, .grid-education{
     grid-template-columns: repeat(2, 1fr);
     margin-left: 5%;
+    width: 80%;
+    margin-right: 0%;
+    grid-gap: 1em;
+}
+  .current {
+    grid-column: 1/ span 2;
+  }
+
+  .projects-main {
+    margin-left: 12.5%;
+
   }
 
 
 }
 
 @media only screen and (max-width: 700px) {
-  .grid, .grid-awards, .grid-skills, .grid-tech, .grid-education{
+
+  .grid, .grid-awards, .grid-tech, .grid-education {
+    margin-left: 0%;
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 2%;
-    margin-top: 12%;
+    /*grid-template-columns: none;*/
+    grid-gap: 1.1em;
+    padding: 1%;
+    width: 95.5%;
+    left: 0%;
+  }
+  .grid-skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+    padding: .4%;
+    width: 90%;
+    margin-left: 0%;
+  }
+
+  .projects-main {
+    position: absolute;
+    /*width: 100%;*/
+    width: 1fr;
+    margin-left: 0%;
+    top: 15%;
+
+  }
+
+  .access-image, .zoula-image {
+    display: none;
   }
 
   .item {
-    font-size: 1em;
+    min-width: 93%;
+    max-width: 100%;
+    padding: 1em;
+    overflow: hidden;    
   }
+
   
 }
 

@@ -135,7 +135,7 @@ function Writing() {
         </div>
       </div>
       <div className="writing-main-text">
-        <p style={{"font-size":"1.5em"}}>Writing</p>
+        <p style={{"font-size":"1.5em"}}>writing</p>
         <p>In my free time, I enjoy writing about cities, health and education. At Yale, my long-form essay about independent primary care clinics entitled, <i>What One Small Health Clinic Tells Us About Healing</i>, won the Williams H. Schubart prize for a distinguished piece on nonfiction writing. I also worked as a reporting intern for the Financial Times' industry publication, <a href="https://www.ftspecialist.com/" target="_blank" rel="noopener noreferrer">Health Payer Specialist</a>, where I wrote about innovation and equity in the health insurance industry.</p>
         <p>Selected Works:</p>
         <ul>

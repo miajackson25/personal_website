@@ -50,23 +50,23 @@
   font-family: 'Helvetica';
   position: fixed;
   color: black;
-  font-weight: 50.5;
+  font-weight: 55;
   transition-duration: 500ms;
 }
 
 .home {
-  top: 58%;
+  top: 50%;
 }
 .project {
-  top: 62%
+  top: 54%
 }
 
 .writing {
-  top: 66%
+  top: 58%
 }
 
 .contact-link {
-  top: 70%
+  top: 62%
 }
 
 .topic:hover {
@@ -142,7 +142,6 @@ a {
 
 
 .intro-page-together {
-
   position: absolute;
   left: 50%;
   top: 22%;
@@ -189,14 +188,32 @@ a {
     font-size: 1.4em;
     width: 100%;
   }
-  .photo {
-    display: none;
+
+  .intro-page-together {
+    display:grid;
+    grid-template-columns: repeat(1, minmax(10%, 1fr));
+    left: 50%;
+    top: 59%;
+    width: 90%;
   }
+
+  .photo {
+    display: block;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    width: 40%;
+    transform: translate(-50%, 0);
+  }
+
   .description {
+    display: block;
+    position: relative;
     width: 85%;
     left: 10%;
     top: 20%;
   }
+
 
   .name {
     font-size: 1.2em;
@@ -223,10 +240,26 @@ a {
     top: 3.5%;
   }
 
-  .topic {
-    font-size: 1.2em;
+
+  .writing-main-text {
+    width: 70%;
+    font-size: 1em;
   }
 
+  .home {
+    top: 40%;
+  }
+  .project {
+    top: 44%
+  }
+  
+  .writing {
+    top: 48%
+  }
+  
+  .contact-link {
+    top: 52%
+  }
 
 
 }
@@ -234,7 +267,6 @@ a {
 @media only screen and (max-width: 700px) {
 
   .name {
-    font-size: 1.2em;
     width: 100%;
   }
 
@@ -244,7 +276,6 @@ a {
     margin-right: 1%;
   }
   .contact {
-    font-size: 1.2em;
     display: absolute;
     top: 30%;
   }
@@ -256,10 +287,6 @@ a {
     right: 1%;
     font-weight: inherit;
     top: 3.5%;
-  }
-
-  .topic {
-    font-size: 1.2em;
   }
 
   .photo {
@@ -292,6 +319,12 @@ a {
     top: 9%;
     z-index: 4;
   }
+
+  .writing-main-text {
+    width: 93%;
+    font-size: .8em;
+  }
+
   .contact-link {
     top: 12%;
     z-index: 4;
@@ -301,6 +334,14 @@ a {
     font-size: 1.2em;
     width: 100%;
   }
+  .intro-page-together {
+    display:grid;
+    grid-template-columns: repeat(1, minmax(10%, 1fr));
+    left: 50%;
+    top: 59%;
+    width: 100%;
+  }
+  
 
 }
 

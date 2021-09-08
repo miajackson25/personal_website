@@ -92,7 +92,7 @@ function Home() {
         <img className="photo" src={Me} alt="me"/>
           <div className="description">
             <div className="mia-intro">
-            <Typist>Hi! <Typist.Delay ms={600} /> I'm Mia.
+            <Typist cursor={{blink:true}}>Hi! <Typist.Delay ms={600} /> I'm Mia.
             </Typist>
             </div> 
             <p>I'm a Richmond, VA native and <a href="https://news.yale.edu/2021/05/20/using-data-and-technology-create-more-just-world" className="links-to-previous-jobs" target="_blank" rel="noopener noreferrer">graduated</a> from Yale in 2021 with a degree in applied mathematics. I'm passionate about technology and urban planning, particularly how both impact health and educational outcomes.</p>
@@ -139,8 +139,10 @@ function Writing() {
       <div className="writing-main-text">
         <p style={{"font-size":"1.5em"}}>writing</p>
         <p>In my free time, I enjoy writing about cities, health and education. At Yale, my long-form essay about independent primary care clinics entitled, <i>What One Small Health Clinic Tells Us About Healing</i>, won the Williams H. Schubart prize for a distinguished piece on nonfiction writing. I also worked as a reporting intern for the Financial Times' industry publication, <a href="https://www.ftspecialist.com/" target="_blank" rel="noopener noreferrer">Health Payer Specialist</a>, where I wrote about innovation and equity in the health insurance industry.</p>
-        <p>Selected Works:</p>
+        <p>Selected Work:</p>
         <ul>
+          <li><a className="links-to-articles" href="https://nextcity.org/daily/entry/playtime-is-making-a-comeback-in-philly" target="_blank" rel="noopener noreferrer">Playtime is Making a Comeback in Philly</a>, Published in <b style={{"color":"#5e86e6"}}>Next City</b>, 9/21</li>
+            <p></p>
           <li><a className="links-to-articles" href="https://www.pilotonline.com/opinion/columns/vp-ed-column-jackson-0829-20210828-2wxwacvpzffjfpfuffbdypj3wu-story.html" target="_blank" rel="noopener noreferrer">CDC Moratorium May Worsen Eviction Crisis in Virginia</a>, Published in <b style={{"color":"#5e86e6"}}>The Virginian-Pilot</b>, 8/21</li>
           <p></p>
           <li><a className="links-to-articles" href="https://www.newsweek.com/my-family-has-been-doctors-black-community-generations-what-if-theyre-last-opinion-1617118" target="_blank" rel="noopener noreferrer">My Family Has Been Doctors in the Black Community for Generations. What If They're The Last?</a>, Co-Published in <b style={{"color":"#5e86e6"}}>Newsweek</b> and <b style={{"color":"#5e86e6"}}>The Economic Hardship Reporting Project</b>, 8/21</li>

@@ -19,7 +19,7 @@ function Projects() {
           <p className="sub-title">currently</p>
           <div className='grid'>
             <div className="item current">Bartlett School of Architecture <br/> University College London<hr/>
-            <p style={{"font-size": ".8em"}}>MSc Space Syntax: Architecture and Cities <br/><br/> I will be spending the next school year (2021-2022) studying the effects of spatial design on the long-term social and economic performance of buildings and urban areas.</p>    
+            <p style={{"font-size": ".8em"}}>MSc Space Syntax: Architecture and Cities <br/><br/> I will be spending the next school year (2021-2022) studying how spaces can be planned, designed and manufactured to create more vibrant communities.</p>    
             </div>
           </div>
           <p className="sub-title">awards</p>

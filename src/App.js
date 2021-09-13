@@ -149,9 +149,9 @@ function Writing() {
           <p></p>
           <li><a className="links-to-articles" href="https://drive.google.com/file/d/1UGKltXur1gHUEgUCU7E786U-pHMVn-WJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Payers May be Waking Up to a New M&A World</a>, Published in <b style={{"color":"#5e86e6"}}>Health Payer Specialist</b>, 8/21</li>
           <p></p>
-          <li><a className="links-to-articles" href="https://drive.google.com/file/d/1YLig3imIAGmv-X7bhnEvQ5Cp9nju06bc/view?usp=sharing" target="_blank" rel="noopener noreferrer">Payers Refine Approach to Covering the Most Vulnerable</a>, Published <b style={{"color":"#5e86e6"}}>Health Payer Specialist</b>, 7/21</li>
+          <li><a className="links-to-articles" href="https://drive.google.com/file/d/1YLig3imIAGmv-X7bhnEvQ5Cp9nju06bc/view?usp=sharing" target="_blank" rel="noopener noreferrer">Payers Refine Approach to Covering the Most Vulnerable</a>, Published in <b style={{"color":"#5e86e6"}}>Health Payer Specialist</b>, 7/21</li>
           <p></p>
-          <li><a className="links-to-articles" href="https://drive.google.com/file/d/1U9KgtWaP8Uce87uf5-0Gp-nP4rmRIo8u/view?usp=sharing" target="_blank" rel="noopener noreferrer">Payers And Venture Capitalist Eye Medicaid and More</a>, Published <b style={{"color":"#5e86e6"}}>Health Payer Specialist</b>, 6/21</li>
+          <li><a className="links-to-articles" href="https://drive.google.com/file/d/1U9KgtWaP8Uce87uf5-0Gp-nP4rmRIo8u/view?usp=sharing" target="_blank" rel="noopener noreferrer">Payers And Venture Capitalist Eye Medicaid and More</a>, Published in <b style={{"color":"#5e86e6"}}>Health Payer Specialist</b>, 6/21</li>
 
         </ul>
         <b /><b /><b />

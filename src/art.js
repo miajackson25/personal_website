@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 import './art.css';
 import {
@@ -33,3 +34,4 @@ function Art() {
   }
 
 export default Art;
+*/

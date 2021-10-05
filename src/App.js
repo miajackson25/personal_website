@@ -141,6 +141,8 @@ function Writing() {
         <p>In my free time, I enjoy writing about cities, health and education. At Yale, my long-form essay about independent primary care clinics entitled, <i>What One Small Health Clinic Tells Us About Healing</i>, won the Williams H. Schubart prize for a distinguished piece on nonfiction writing. I also worked as a reporting intern for the Financial Times' industry publication, <a href="https://www.ftspecialist.com/" target="_blank" rel="noopener noreferrer">Health Payer Specialist</a>, where I wrote about innovation and equity in the health insurance industry.</p>
         <p>Selected Work:</p>
         <ul>
+          <li><a className="links-to-articles" href="https://undark.org/2021/10/04/opinion-government-food-aid-programs-need-a-digital-facelift/" target="_blank" rel="noopener noreferrer">Opinion: Government Food Aid Programs Need A Digital Facelift</a>, Published in <b style={{"color":"#5e86e6"}}>Undark</b>, 10/21</li>
+          <p></p>
           <li><a className="links-to-articles" href="https://nextcity.org/daily/entry/how-philly-will-become-the-city-of-arborly-love" target="_blank" rel="noopener noreferrer">How Philly Will Become the City of Arborly Love</a>, Published in <b style={{"color":"#5e86e6"}}>Next City</b>, 10/21</li>
           <p></p>
           <li><a className="links-to-articles" href="https://nextcity.org/daily/entry/playtime-is-making-a-comeback-in-philly" target="_blank" rel="noopener noreferrer">Playtime is Making a Comeback in Philly</a>, Published in <b style={{"color":"#5e86e6"}}>Next City</b>, 9/21</li>

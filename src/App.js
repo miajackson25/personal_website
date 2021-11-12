@@ -141,6 +141,8 @@ function Writing() {
         <p>My writing focuses on cities, health, education, and innovation. At Yale, my long-form essay about independent primary care clinics entitled, <i>What One Small Health Clinic Tells Us About Healing</i>, won the Williams H. Schubart prize for a distinguished piece on nonfiction writing. I also worked as a reporting intern for the Financial Times' industry publication, <a href="https://www.ftspecialist.com/" target="_blank" rel="noopener noreferrer">Health Payer Specialist</a>, where I wrote about innovation and equity in the health insurance industry.</p>
         <p>Selected Work:</p>
         <ul>
+          <li><a className="links-to-articles" href="https://nextcity.org/urbanist-news/entry/la-metro-deploying-earthquake-alert-system-across-its-facilities" target="_blank" rel="noopener noreferrer">LA Metro Deploying Earthquake Alert System Across Its Facilities</a>, Published in <b style={{"color":"#5e86e6"}}>Next City</b>, 11/21</li>
+          <p></p>
           <li><a className="links-to-articles" href="https://www.thedailybeast.com/online-markets-and-grocery-delivery-grew-big-during-the-pandemic-they-could-solve-americas-hunger-problem" target="_blank" rel="noopener noreferrer">The Pandemic Taught the U.S. How to Solve Its Hunger Problem</a>, Published in <b style={{"color":"#5e86e6"}}>The Daily Beast</b> and <b style={{"color":"#5e86e6"}}>The Undark Magazine</b>, 10/21</li>
           <p></p>
           <li><a className="links-to-articles" href="https://nextcity.org/daily/entry/how-philly-will-become-the-city-of-arborly-love" target="_blank" rel="noopener noreferrer">How Philly Will Become the City of Arborly Love</a>, Published in <b style={{"color":"#5e86e6"}}>Next City</b>, 10/21</li>
@@ -151,11 +153,6 @@ function Writing() {
           <p></p>
           <li><a className="links-to-articles" href="https://www.newsweek.com/my-family-has-been-doctors-black-community-generations-what-if-theyre-last-opinion-1617118" target="_blank" rel="noopener noreferrer">My Family Has Been Doctors in the Black Community for Generations. What If They're The Last?</a>, Published in <b style={{"color":"#5e86e6"}}>Newsweek</b> and <b style={{"color":"#5e86e6"}}>The Economic Hardship Reporting Project</b>, 8/21</li>
           <p></p>
-          <li><a className="links-to-articles" href="https://drive.google.com/file/d/1UGKltXur1gHUEgUCU7E786U-pHMVn-WJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Payers May be Waking Up to a New M&A World</a>, Published in <b style={{"color":"#5e86e6"}}>Health Payer Specialist</b>, 8/21</li>
-          <p></p>
-          <li><a className="links-to-articles" href="https://drive.google.com/file/d/1YLig3imIAGmv-X7bhnEvQ5Cp9nju06bc/view?usp=sharing" target="_blank" rel="noopener noreferrer">Payers Refine Approach to Covering the Most Vulnerable</a>, Published in <b style={{"color":"#5e86e6"}}>Health Payer Specialist</b>, 7/21</li>
-          <p></p>
-          <li><a className="links-to-articles" href="https://drive.google.com/file/d/1U9KgtWaP8Uce87uf5-0Gp-nP4rmRIo8u/view?usp=sharing" target="_blank" rel="noopener noreferrer">Payers And Venture Capitalist Eye Medicaid and More</a>, Published in <b style={{"color":"#5e86e6"}}>Health Payer Specialist</b>, 6/21</li>
 
         </ul>
         <b /><b /><b />

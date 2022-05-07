@@ -11,7 +11,7 @@ function Projects() {
         <div className="name-div">
           <p className="name"><Link to="/" style={{"color": "black"}}>mia jackson</Link></p>
           <div className="contact-div">
-            <p className="contact">mia.jackson@yale.edu</p>
+            <p className="contact">miaj25@gmail.com</p>
           </div>
         </div>
 
@@ -21,18 +21,6 @@ function Projects() {
             <div className="item current">Bartlett School of Architecture <br/> University College London<hr/>
             <p style={{"font-size": ".8em"}}>MSc Space Syntax: Architecture and Cities <br/><br/> I will be spending the next school year (2021-2022) studying how spaces can be planned, designed and manufactured to create more vibrant communities.</p>    
             </div>
-          </div>
-          <p className="sub-title">awards</p>
-
-          <div className='grid-awards'>
-            <div className="item awards"><b style={{"font-weight":"530"}}>James Andrew Haas</b> <p className="dates">Yale University</p><hr/>Awarded to a senior for "breadth of intellectual achievement, strength of character, and fundamental humanity" as well as potential for public service. <a href="https://news.yale.edu/2021/06/07/students-earn-top-yale-college-prizes-their-accomplishments" target="_blank" rel="noopener noreferrer">news</a></div>
-            <div className="item awards"><b style={{"font-weight":"530"}}>Roosevelt L. Thompson</b><p className="dates">Yale University</p><hr/>"For a senior dedicated to public service, who has exemplified warmth, fairness, and compassion, and shows promise for moral leadership in the public sphere."</div>
-            <div className="item awards"><b style={{"font-weight":"530"}}>Elga Ruth Wasserman</b><p className="dates">Yale University</p><hr/>For "a senior who has shown extraordinary commitment to the advancement of social justice and gender equality in Yale College."</div>
-            <div className="item awards"><b style={{"font-weight":"530"}}>Outstanding Research in STEM Fields Award</b><p className="dates">Yale University</p><hr/>Prize awarded by the Afro American Cultural Center for my thesis in applied mathematics.</div>
-            <div className="item awards"><b style={{"font-weight":"530"}}>Williams H. Schubart</b><p className="dates">Yale University</p><hr/>Awarded to a senior for a piece of distinguished nonfiction writing.</div>
-            <div className="item awards"><b style={{"font-weight":"530"}}>UK-US Fulbright Scholarship</b><p className="dates">U.S. State Department</p><hr/>Selected for the Fulbright scholarship to study at University College London</div>
-            <div className="item awards"><b style={{"font-weight":"530"}}>CBIT Healthcare Hackathon</b><p className="dates">Yale University</p><hr/>Runner-up for <a href="https://medicine.yale.edu/news-article/22471/" target="_blank" rel="noopener noreferrer">prototype</a> of a Black maternal health app, Zoula.</div>
-            <div className="item awards"><b style={{"font-weight":"530"}}>Startup Yale</b><p className="dates">Yale University</p><hr/>Ranked in the top 6 of 50+ companies at Yale's annual startup competition.</div>
           </div>
           
           <p className="sub-title">skills (fluent)</p>
@@ -73,13 +61,28 @@ function Projects() {
             <div className="item current">Yale Department of Statistics and Data Science<hr/><p className="description-text">Hosted weekly office hours and created extra curriculum to reinforce material for college students in an introductory statistics course taught in python.</p></div>
           </div>
 
-
           <p className="sub-title">research</p>
           <div className='grid-education'>
           <div className="item light-grey-background">Townsend Laboratory<br/>Yale School of Public Health<hr/><p className="description-text">Conducted independent research in the <a href="https://github.com/miajackson/townsend_lab_ESCC_Paper" target="_blank" rel="noopener noreferrer">Townsend Laboratory</a> investigating the mutational landscape of benign and cancerous tumors in melanoma and esophageal cancer.</p></div>
             <div className="item light-grey-background">Tobin Center for Economic Policy<hr/><p className="description-text">Analyzed cross-contamination of Covid-19 in nursing homes located in OH and CT and automated the data processing pipeline. I also created visualizations of this cross-contamination which were shared with policy makers.</p></div>
           </div>
+
+          <p className="sub-title">awards</p>
+
+          <div className='grid-awards'>
+            <div className="item awards"><b style={{"font-weight":"530"}}>James Andrew Haas</b> <p className="dates">Yale University</p><hr/>Awarded to a senior for "breadth of intellectual achievement, strength of character, and fundamental humanity" as well as potential for public service. <a href="https://news.yale.edu/2021/06/07/students-earn-top-yale-college-prizes-their-accomplishments" target="_blank" rel="noopener noreferrer">news</a></div>
+            <div className="item awards"><b style={{"font-weight":"530"}}>Roosevelt L. Thompson</b><p className="dates">Yale University</p><hr/>"For a senior dedicated to public service, who has exemplified warmth, fairness, and compassion, and shows promise for moral leadership in the public sphere."</div>
+            <div className="item awards"><b style={{"font-weight":"530"}}>Elga Ruth Wasserman</b><p className="dates">Yale University</p><hr/>For "a senior who has shown extraordinary commitment to the advancement of social justice and gender equality in Yale College."</div>
+            <div className="item awards"><b style={{"font-weight":"530"}}>Outstanding Research in STEM Fields Award</b><p className="dates">Yale University</p><hr/>Prize awarded by the Afro American Cultural Center for my thesis in applied mathematics.</div>
+            <div className="item awards"><b style={{"font-weight":"530"}}>Williams H. Schubart</b><p className="dates">Yale University</p><hr/>Awarded to a senior for a piece of distinguished nonfiction writing.</div>
+            <div className="item awards"><b style={{"font-weight":"530"}}>UK-US Fulbright Scholarship</b><p className="dates">U.S. State Department</p><hr/>Selected for the Fulbright scholarship to study at University College London</div>
+            <div className="item awards"><b style={{"font-weight":"530"}}>CBIT Healthcare Hackathon</b><p className="dates">Yale University</p><hr/>Runner-up for <a href="https://medicine.yale.edu/news-article/22471/" target="_blank" rel="noopener noreferrer">prototype</a> of a Black maternal health app, Zoula.</div>
+            <div className="item awards"><b style={{"font-weight":"530"}}>Startup Yale</b><p className="dates">Yale University</p><hr/>Ranked in the top 6 of 50+ companies at Yale's annual startup competition.</div>
+          </div>
+          <p></p><p></p><p></p><p></p><p></p><p></p><p></p>
         </div>
+
+        
 
 
 

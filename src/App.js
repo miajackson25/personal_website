@@ -84,7 +84,7 @@ function Home() {
       <div className="name-div">
         <p className="name"><Link to="/" style={{"color": "black"}}>mia jackson</Link></p>
           <div className="contact-div">
-            <p className="contact">mia.jackson@yale.edu</p>
+            <p className="contact">miaj25@gmail.com</p>
           </div>
       </div>
 
@@ -116,7 +116,7 @@ function Contact() {
     <div className="name-div">
     <p className="name"><Link to="/" style={{"color": "black"}}>mia jackson</Link></p>
       <div className="contact-div">
-        <p className="contact"><a href="mailto:mia.jackson@yale.edu">mia.jackson@yale.edu</a></p>
+        <p className="contact"><a href="mailto:mia.jackson@yale.edu">miaj25@gmail.com</a></p>
       </div>
     </div>
     <div className="contact-description-div">
@@ -133,7 +133,7 @@ function Writing() {
       <div className="name-div">
         <p className="name"><Link to="/" style={{"color": "black"}}>mia jackson</Link></p>
         <div className="contact-div">
-          <p className="contact">mia.jackson@yale.edu</p>
+          <p className="contact">miaj25@gmail.com</p>
         </div>
       </div>
       <div className="writing-main-text">
@@ -156,6 +156,10 @@ function Writing() {
           <li><a className="links-to-articles" href="https://www.pilotonline.com/opinion/columns/vp-ed-column-jackson-0829-20210828-2wxwacvpzffjfpfuffbdypj3wu-story.html" target="_blank" rel="noopener noreferrer">CDC Moratorium May Worsen Eviction Crisis in Virginia</a>, Published in <b style={{"color":"#5e86e6"}}>The Virginian-Pilot</b>, 8/21</li>
           <p></p>
           <li><a className="links-to-articles" href="https://www.newsweek.com/my-family-has-been-doctors-black-community-generations-what-if-theyre-last-opinion-1617118" target="_blank" rel="noopener noreferrer">My Family Has Been Doctors in the Black Community for Generations. What If They're The Last?</a>, Published in <b style={{"color":"#5e86e6"}}>Newsweek</b> and <b style={{"color":"#5e86e6"}}>The Economic Hardship Reporting Project</b>, 8/21</li>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
           <p></p>
           <p></p>
           <p></p>

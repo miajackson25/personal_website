@@ -11,7 +11,7 @@ function Art() {
       <div className="name-div">
       <p className="name"><Link to="/" style={{"color": "black"}}>mia jackson</Link></p>
         <div className="contact-div">
-          <p className="contact">mia.jackson@yale.edu</p>
+          <p className="contact">miaj25@gmail.com</p>
         </div>
       </div>
       <div id="art-description">

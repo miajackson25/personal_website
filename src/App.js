@@ -141,6 +141,8 @@ function Writing() {
         <p>I'm inspired everyday by the innovation in local communities to solve the problems closest to them. I write about anything in the realm of cities, health, education and innovation, but my favorite stories are about local heroes solving local problems. My work has been supported by the Economic Hardship Reporting Project and published in the Solutions Journalism Network.</p><p>At Yale, my long-form essay about independent primary care clinics entitled, <i>What One Small Health Clinic Tells Us About Healing</i>, won the Williams H. Schubart prize for a distinguished piece on nonfiction writing. I also worked as a reporting intern for the Financial Times' industry publication, <a href="https://www.ftspecialist.com/" target="_blank" rel="noopener noreferrer">Health Payer Specialist</a>, where I wrote about innovation and equity in the health insurance industry.</p>
         <p>Selected Work:</p>
         <ul>
+          <li><a className="links-to-articles" href="https://nextcity.org/urbanist-news/americas-most-influential-protest-removed-heres-what-should-have-happened" target="_blank" rel="noopener noreferrer">America's Most Influential Protest Art Was Quietly Removed. Here's What Should Have Happened Instead</a>, Published in <b style={{"color":"#5e86e6"}}>Next City</b>, 5/22</li>
+          <p></p>
           <li><a className="links-to-articles" href="https://nextcity.org/urbanist-news/can-art-bring-justice-to-black-homeowners" target="_blank" rel="noopener noreferrer">Can Art Bring Justice to Black Homeowners?</a>, Published in <b style={{"color":"#5e86e6"}}>Next City</b>, 3/22</li>
           <p></p>
           <li><a className="links-to-articles" href="https://nextcity.org/urbanist-news/philadelphia-nonprofit-trains-parents-to-be-reading-stewards" target="_blank" rel="noopener noreferrer">Philadelphia Nonprofit Trains Parents to Be Reading Stewards</a>, Published in <b style={{"color":"#5e86e6"}}>Next City</b>, 2/22</li>
@@ -157,6 +159,7 @@ function Writing() {
           <p></p>
           <li><a className="links-to-articles" href="https://www.newsweek.com/my-family-has-been-doctors-black-community-generations-what-if-theyre-last-opinion-1617118" target="_blank" rel="noopener noreferrer">My Family Has Been Doctors in the Black Community for Generations. What If They're The Last?</a>, Published in <b style={{"color":"#5e86e6"}}>Newsweek</b> and <b style={{"color":"#5e86e6"}}>The Economic Hardship Reporting Project</b>, 8/21</li>
           <p></p>
+        
           <p></p>
           <p></p>
           <p></p>
